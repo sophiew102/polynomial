@@ -5,8 +5,8 @@ class X:
     def __repr__(self):
         return "X"
     
-    def evaluate(self, value):
-        return value 
+    def evaluate(self, i):
+        return i
 
 class Int:
     def __init__(self, i):
